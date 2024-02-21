@@ -1,0 +1,252 @@
+Test 1: Master = /dev/ttyUSB0, Slaves = ['/dev/ttyUSB1', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 9600
+	Testing write of values
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 2: Master = /dev/ttyUSB1, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 9600
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 3: Master = /dev/ttyUSB2, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB3'], Baud rate = 9600
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB3
+Test 4: Master = /dev/ttyUSB3, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB2'], Baud rate = 9600
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2
+Test 1: Master = /dev/ttyUSB0, Slaves = ['/dev/ttyUSB1', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 19200
+	Testing write of values
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 2: Master = /dev/ttyUSB1, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 19200
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 3: Master = /dev/ttyUSB2, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB3'], Baud rate = 19200
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB3
+Test 4: Master = /dev/ttyUSB3, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB2'], Baud rate = 19200
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2
+Test 1: Master = /dev/ttyUSB0, Slaves = ['/dev/ttyUSB1', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 38400
+	Testing write of values
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 2: Master = /dev/ttyUSB1, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 38400
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 3: Master = /dev/ttyUSB2, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB3'], Baud rate = 38400
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB3
+Test 4: Master = /dev/ttyUSB3, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB2'], Baud rate = 38400
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2
+Test 1: Master = /dev/ttyUSB0, Slaves = ['/dev/ttyUSB1', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 57600
+	Testing write of values
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 2: Master = /dev/ttyUSB1, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 57600
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 3: Master = /dev/ttyUSB2, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB3'], Baud rate = 57600
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB3
+Test 4: Master = /dev/ttyUSB3, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB2'], Baud rate = 57600
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2
+Test 1: Master = /dev/ttyUSB0, Slaves = ['/dev/ttyUSB1', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 115200
+	Testing write of values
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 2: Master = /dev/ttyUSB1, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 115200
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 3: Master = /dev/ttyUSB2, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB3'], Baud rate = 115200
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB3
+Test 4: Master = /dev/ttyUSB3, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB2'], Baud rate = 115200
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2
+Test 1: Master = /dev/ttyUSB0, Slaves = ['/dev/ttyUSB1', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 230400
+	Testing write of values
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 2: Master = /dev/ttyUSB1, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 230400
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 3: Master = /dev/ttyUSB2, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB3'], Baud rate = 230400
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB3
+Test 4: Master = /dev/ttyUSB3, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB2'], Baud rate = 230400
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2
+Test 1: Master = /dev/ttyUSB0, Slaves = ['/dev/ttyUSB1', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 460800
+	Testing write of values
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 2: Master = /dev/ttyUSB1, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB2', '/dev/ttyUSB3'], Baud rate = 460800
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB2
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB2
+	Read operation successful and values verified /dev/ttyUSB3
+Test 3: Master = /dev/ttyUSB2, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB3'], Baud rate = 460800
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB3
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB3
+Test 4: Master = /dev/ttyUSB3, Slaves = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB2'], Baud rate = 460800
+	Testing write of values
+	Write operation successful /dev/ttyUSB0
+	Write operation successful /dev/ttyUSB1
+	Write operation successful /dev/ttyUSB2
+	Testing read of values
+	Read operation successful and values verified /dev/ttyUSB0
+	Read operation successful and values verified /dev/ttyUSB1
+	Read operation successful and values verified /dev/ttyUSB2

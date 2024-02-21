@@ -1,0 +1,48 @@
+Testing - Writer: /dev/ttyUSB0, Reader: /dev/ttyUSB1, Baud Rate: 230.4kbps, Data Size: 230.4kb
+Transfer Successful - Bandwidth: 185 kbps, Duration: 1.24 s, Efficiency: 80.33%
+
+Testing - Writer: /dev/ttyUSB1, Reader: /dev/ttyUSB2, Baud Rate: 230.4kbps, Data Size: 230.4kb
+Transfer Successful - Bandwidth: 185 kbps, Duration: 1.24 s, Efficiency: 80.33%
+
+Testing - Writer: /dev/ttyUSB2, Reader: /dev/ttyUSB3, Baud Rate: 230.4kbps, Data Size: 230.4kb
+Transfer Successful - Bandwidth: 185 kbps, Duration: 1.24 s, Efficiency: 80.40%
+
+Testing - Writer: /dev/ttyUSB3, Reader: /dev/ttyUSB0, Baud Rate: 230.4kbps, Data Size: 230.4kb
+Transfer Successful - Bandwidth: 185 kbps, Duration: 1.24 s, Efficiency: 80.37%
+
+Testing - Writer: /dev/ttyUSB0, Reader: /dev/ttyUSB1, Baud Rate: 500.0kbps, Data Size: 500.0kb
+Transfer Successful - Bandwidth: 399 kbps, Duration: 1.25 s, Efficiency: 79.80%
+
+Testing - Writer: /dev/ttyUSB1, Reader: /dev/ttyUSB2, Baud Rate: 500.0kbps, Data Size: 500.0kb
+Transfer Successful - Bandwidth: 399 kbps, Duration: 1.25 s, Efficiency: 79.81%
+
+Testing - Writer: /dev/ttyUSB2, Reader: /dev/ttyUSB3, Baud Rate: 500.0kbps, Data Size: 500.0kb
+Transfer Successful - Bandwidth: 399 kbps, Duration: 1.25 s, Efficiency: 79.89%
+
+Testing - Writer: /dev/ttyUSB3, Reader: /dev/ttyUSB0, Baud Rate: 500.0kbps, Data Size: 500.0kb
+Transfer Successful - Bandwidth: 399 kbps, Duration: 1.25 s, Efficiency: 79.84%
+
+Testing - Writer: /dev/ttyUSB0, Reader: /dev/ttyUSB1, Baud Rate: 1000.0kbps, Data Size: 1000.0kb
+Transfer Successful - Bandwidth: 725 kbps, Duration: 1.38 s, Efficiency: 72.48%
+
+Testing - Writer: /dev/ttyUSB1, Reader: /dev/ttyUSB2, Baud Rate: 1000.0kbps, Data Size: 1000.0kb
+Transfer Successful - Bandwidth: 725 kbps, Duration: 1.38 s, Efficiency: 72.50%
+
+Testing - Writer: /dev/ttyUSB2, Reader: /dev/ttyUSB3, Baud Rate: 1000.0kbps, Data Size: 1000.0kb
+Transfer Successful - Bandwidth: 726 kbps, Duration: 1.38 s, Efficiency: 72.56%
+
+Testing - Writer: /dev/ttyUSB3, Reader: /dev/ttyUSB0, Baud Rate: 1000.0kbps, Data Size: 1000.0kb
+Transfer Successful - Bandwidth: 725 kbps, Duration: 1.38 s, Efficiency: 72.52%
+
+Testing - Writer: /dev/ttyUSB0, Reader: /dev/ttyUSB1, Baud Rate: 1500.0kbps, Data Size: 1500.0kb
+Data integrity check failed: Received data does not match sent data.
+Amount data sent: 187500, data received: 187500
+Testing - Writer: /dev/ttyUSB1, Reader: /dev/ttyUSB2, Baud Rate: 1500.0kbps, Data Size: 1500.0kb
+Data integrity check failed: Received data does not match sent data.
+Amount data sent: 187500, data received: 187500
+Testing - Writer: /dev/ttyUSB2, Reader: /dev/ttyUSB3, Baud Rate: 1500.0kbps, Data Size: 1500.0kb
+Data integrity check failed: Received data does not match sent data.
+Amount data sent: 187500, data received: 187500
+Testing - Writer: /dev/ttyUSB3, Reader: /dev/ttyUSB0, Baud Rate: 1500.0kbps, Data Size: 1500.0kb
+Data integrity check failed: Received data does not match sent data.
+Amount data sent: 187500, data received: 187500
