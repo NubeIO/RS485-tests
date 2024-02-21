@@ -42,7 +42,7 @@ def test_bandwidth(write_port, read_port, baud_rate, data_size):
 
             # Calculate and print bandwidth, duration, and efficiency
             duration = end_time - start_time
-            bandwidth = (data_size * 8) / duration  # bits per second
+            bandwidth = (data_size * (8+2)) / duration  # Plus 2 bits to account for the serial start/stop bits
             efficiency = (bandwidth / baud_rate) * 100  # percentage
 
             print(
