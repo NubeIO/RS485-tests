@@ -57,7 +57,7 @@ def test_bandwidth(write_port, read_port, baud_rate, data_size):
 
 if __name__ == "__main__":
     # Define baud rates and serial ports to test
-    baud_rates = [230400, 500000, 1000000, 1500000]
+    baud_rates = [230400, 460000, 1000000, 1500000]
     ports = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB2', '/dev/ttyUSB3']
 
     # Loop through each baud rate
