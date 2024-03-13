@@ -42,7 +42,7 @@ error() {
 }
 
 
-# Run a Modbus test between a master and a slave device.
+# Run a Modbus test.csv between a master and a slave device.
 # Arguments:
 #   $1: Master port
 #   $2: Slave port

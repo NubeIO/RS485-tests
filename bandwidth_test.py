@@ -20,7 +20,7 @@ def test_bandwidth(write_port, read_port, baud_rate, data_size):
         with serial.Serial(write_port, baud_rate, timeout=1) as writer, \
                 serial.Serial(read_port, baud_rate, timeout=1) as reader:
 
-            # Generate test data as a sequence of bytes
+            # Generate test.csv data as a sequence of bytes
             data = bytes([x % 256 for x in range(data_size)])
 
             # Flush any existing data in the buffers
@@ -56,8 +56,8 @@ def test_bandwidth(write_port, read_port, baud_rate, data_size):
 
 
 if __name__ == "__main__":
-    # Define baud rates and serial ports to test
-    baud_rates = [230400, 460000, 1000000, 1500000]
+    # Define baud rates and serial ports to test.csv
+    baud_rates = [230400, 500000, 1000000, 1500000]
     ports = ['/dev/ttyUSB0', '/dev/ttyUSB1', '/dev/ttyUSB2', '/dev/ttyUSB3']
 
     # Loop through each baud rate
